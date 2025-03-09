@@ -1,7 +1,10 @@
 # Transpileur-OCaml->C
 Un transpileur simple qui traduit du code OCaml en code C (sous certaines conditions)
 
-Le transpileur supporte actuellement les types int (entiers), bool (booléens) et unit (ou void en C : fonctions qui ne renvoient rien)
+Le transpileur supporte actuellement les types suivant :
+- int (entiers) 
+- bool (booléens) 
+- unit (ou void en C : fonctions qui ne renvoient rien)
 
 Le code OCaml doit être déclaré suivant les spécifications suivantes : 
 
