@@ -22,6 +22,8 @@ On compile une première fois en utilisant le makefile : ```make``` ou ```make -
 Des warning peuvent apparaître lors de la compilation, ne pas en tenir compte.
 On traduit ensuite un code écrit dans un fichier ```input.ml``` : ```./transpileur input.ml ```
 
+Vous trouverez un exemple de fichier dont la transpilation fonctionne dans ```exemple.ml```
+
 # Nettoyage 
 
 Le makefile contient deux fonctions de nettoyage :
