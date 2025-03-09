@@ -15,7 +15,7 @@ Les sous fonctions ne sont pour le moment pas prises en charge, tout comme les p
 
 # Utilisation
 
-Le transpileur utilise Ocamlc
+Le transpileur utilise OCamlc
 
 Le transpileur utilise OCamllex
 
