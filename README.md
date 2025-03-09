@@ -13,7 +13,9 @@ Les sous fonctions ne sont pour le moment pas prises en charge.
 # Utilisation
 
 Le transpileur utilise Ocamlc
+
 Le transpileur utilise OCamllex
+
 Le transpileur utilise Menhir : ```opam install menhir```
 
 On compile une première fois en utilisant le makefile : ```make``` ou ```make -f makefile.mak```
