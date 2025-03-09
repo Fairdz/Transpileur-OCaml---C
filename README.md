@@ -11,7 +11,7 @@ Le code OCaml doit être déclaré suivant les spécifications suivantes :
 - Des fonctions écrites sans spécification de type pour les paramètres
 - Une fonction main sous la forme ```let () = ...```
 
-Les sous fonctions ne sont pour le moment pas prises en charge. 
+Les sous fonctions ne sont pour le moment pas prises en charge, tout comme les pattern matching.
 
 # Utilisation
 
