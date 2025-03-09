@@ -1,5 +1,5 @@
 # Transpileur-OCaml->C
-Un transpileur simple qui traduit du code OCaml en code C (sous certaines conditions)
+Un transpileur simple qui traduit du code OCaml en code C 
 
 Le transpileur supporte actuellement les types suivant :
 - int (entiers) 
