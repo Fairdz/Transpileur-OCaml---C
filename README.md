@@ -27,3 +27,5 @@ Vous trouverez un exemple de fichier dont la transpilation fonctionne dans ```ex
 Le makefile contient deux fonctions de nettoyage :
 - ```make clean``` ou ```make -f makefile.mak clean```, pour effacer uniquement les fichiers qui servent lors de la création de l'exécutable, et qui ne servent plus après (recommandé)
 - ```make distclean``` ou ```make -f makefile.mak distclean```, pour effacer tous les fichiers non essentiels à la création de l'exécutable
+
+Tous les fichiers créés par le makefile sont stockés dans le dossier d'exécution : pour tout supprimer, il suffit de supprimer ce dossier.
