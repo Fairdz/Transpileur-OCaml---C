@@ -17,7 +17,9 @@ Les sous fonctions ne sont pour le moment pas prises en charge, tout comme les p
 Le transpileur utilise OCamlc, Ocamllex ainsi que Menhir.
 
 On compile une première fois en utilisant le makefile : ```make``` ou ```make -f makefile.mak```
+
 Des warning peuvent apparaître lors de la compilation, ne pas en tenir compte.
+
 On traduit ensuite un code écrit dans un fichier ```input.ml``` : ```./transpileur input.ml ```
 
 Vous trouverez un exemple de fichier dont la transpilation fonctionne dans ```exemple.ml```
