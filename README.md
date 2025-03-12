@@ -1,5 +1,4 @@
 # Transpileur OCaml -> C
-Un transpileur simple qui traduit du code OCaml en code C 
 
 Le transpileur supporte actuellement les types suivant :
 - int (entiers) 
@@ -15,11 +14,7 @@ Les sous fonctions ne sont pour le moment pas prises en charge, tout comme les p
 
 # Utilisation
 
-Le transpileur utilise OCamlc
-
-Le transpileur utilise OCamllex
-
-Le transpileur utilise Menhir : ```opam install menhir```
+Le transpileur utilise OCamlc, Ocamllex ainsi que Menhir.
 
 On compile une première fois en utilisant le makefile : ```make``` ou ```make -f makefile.mak```
 Des warning peuvent apparaître lors de la compilation, ne pas en tenir compte.
